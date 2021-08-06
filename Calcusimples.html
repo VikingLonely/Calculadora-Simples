@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculadoraSimples</title> 
+    <style type="text/css">
+        #titulo{
+            font-size:50px;
+            text-align:center;
+        }
+        
+        #Resultado{
+            
+            font-size: 20px;
+
+        }
+
+    </style>
+
+    <script src="CodigoCalcSimples.js"> </script>
+    
+</head>
+<body>
+    <h1 id="titulo">Calculadora Simples</h1> 
+
+    <div>
+        <p style=font-size:30px;>Digite os numeros: </p> 
+        <input type="text" id="n1" placeholder="1º numero"> <br>
+        <input type="text" id="n2" placeholder="2º numero"> <br>
+        <br>
+
+        <input style="width: 30px; text-align: center;"type="button" value="+" onclick="Soma()">
+        <input style="width: 30px; text-align: center;" type="button" value="-" onclick="Subitracao()">
+        <input style="width: 30px; text-align: center;" type="button" value="x" onclick="multiplicacao()">
+        <input style="width: 30px; text-align:center;" type="button" value="/" onclick="divisao()">
+
+
+
+        
+    </div>
+
+    <div><br>
+        
+        Resultado: <span id="Resultado">dadawda</span>
+
+        
+    </div>
+</body>
+</html>
